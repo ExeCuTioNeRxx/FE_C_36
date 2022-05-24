@@ -3,7 +3,7 @@
 int main() 
 {
 char source[]="ice";
-char target[0];
+char target[10];
 strcpy(target,source);
 printf("source string=%s\n",source);
 printf("target string=%s\n",target);
@@ -12,6 +12,6 @@ printf("target string=%s\n",target);
 }
 /*
 Output
-source string=ce
+source string=ice
 target string=ice
 */
